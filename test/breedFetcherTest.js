@@ -18,9 +18,9 @@ describe('fetchBreedDescription', () => {
   });
 
 
-//                error value                       description value
-// iff success,     null                          the description from body
-// if failute,      error we get from request         null
+  //                error value                       description value
+  // iff success,     null                          the description from body
+  // if failute,      error we get from request         null
 
   it('invalid/non-existent breed is passed in', (done) => {
     fetchBreedDescription('brian', (err, desc) => {
